@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: ./.github/workflow/python-ci-workflow.yml
+    uses: jymartineau/0304-cicd-container-images/.github/workflows/python-ci-workflow.yml@main
     permissions:
       contents: read
       checks: write
